@@ -1,6 +1,7 @@
-n=int(input("Enter an int: "))
+n=int(input())
 
 while True:
+    print(int(n))
     if n==1:
         break
     if n%2==0:
@@ -8,4 +9,3 @@ while True:
     else:
         n = n*3 + 1
 
-    print(int(n))
